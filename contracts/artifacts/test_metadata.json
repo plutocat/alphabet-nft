@@ -27,6 +27,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "keyPrefix",
+						"type": "string"
+					}
+				],
+				"name": "pluck",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string",
 						"name": "input",
 						"type": "string"
@@ -41,6 +65,19 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "random2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -73,9 +110,9 @@
 				"name": "slice2",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "pure",
@@ -129,10 +166,10 @@
 	},
 	"sources": {
 		"contracts/test2.sol": {
-			"keccak256": "0x06a135204481e7bbd1e9684536fd705e2deb2db33f810590a3d17abb512755e6",
+			"keccak256": "0x5c5bad42369519cf140335429ae3fcfd74260705b59cedcfa8ac8f3d42d689b0",
 			"urls": [
-				"bzz-raw://7b186b8289a3b362e1923fba61cd9cfe6ec85c693acbe9fcbadeb8695a2de31e",
-				"dweb:/ipfs/QmeniBA8zy8n86YEBE9EcgxYB3VwGzee34T7r6P1HtQifQ"
+				"bzz-raw://72163fedf714935cc92c7f6b05d0d4d263cd7717ce9541694679636cbc33d47b",
+				"dweb:/ipfs/QmX5hYN7PBQToEN17gTPyAt3HewYGvYPCcN5P7iSdEWFUZ"
 			]
 		}
 	},
